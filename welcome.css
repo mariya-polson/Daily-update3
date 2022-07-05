@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  overflow-x: auto;
+}
+/* ---------------------------------Background Section-------------------------------------- */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1083px;
+}
+.flex-container img {
+  position: absolute;
+  z-index: 0;
+}
+/* -----------------------------------------Section 1-------------------------------------------------------- */
+.container-1 {
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 277px;
+}
+.container-1 h5 {
+  color: white;
+  top: 348px;
+  left: 101px;
+  font-size: 3.75rem;
+  margin-block: 0;
+  position: absolute;
+}
+.container-1 p {
+  color: white;
+  font-size: 2.5rem;
+  top: 422px;
+  left: 167px;
+  position: absolute;
+  margin-block: 0;
+}
+.container-1 .aspire-logo {
+  left: 260px;
+  top: 673px;
+}
+/* --------------------------------------------Section 2------------------------------------------------------------------ */
+.container-2 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 960px;
+}
+.container-2 .welcome {
+  left: 236px;
+  top: 143px;
+}
+.container-2 h2 {
+  font-size: 2.5rem;
+  margin-block: 0;
+  margin-left: 198px;
+  margin-top: 300px;
+  color: #28233c;
+}
+.container-2 p {
+  font-size: 1.25rem;
+  color: #ada9bf;
+  text-align: center;
+}
+#sign-in {
+  left: 251px;
+  top: 487px;
+  width: 181px;
+  height: 50px;
+  position: absolute;
+  color: white;
+  font-size: 1.25rem;
+  border-color: transparent;
+  background: transparent linear-gradient(255deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+}

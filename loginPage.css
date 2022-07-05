@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  height: 100vh;
+}
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow-x: auto;
+}
+/* ---------------------------------Background Section-------------------------------------- */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1083px;
+}
+.flex-container img {
+  position: absolute;
+  z-index: 0;
+}
+
+/* -----------------------------------------Section 1-------------------------------------------------------- */
+.container-1 {
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 277px;
+}
+.container-1 h5 {
+  color: white;
+  top: 348px;
+  left: 101px;
+  font-size: 3.75rem;
+  margin-block: 0;
+  position: absolute;
+}
+.container-1 p {
+  color: white;
+  font-size: 2.5rem;
+  top: 422px;
+  left: 167px;
+  position: absolute;
+  margin-block: 0;
+}
+.container-1 .aspire-logo {
+  left: 260px;
+  top: 673px;
+}
+/* --------------------------------------------Section 2------------------------------------------------------------------ */
+.container-2 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 960px;
+}
+/* -----------------Login Section----------------------- */
+.container-2 h2 {
+  margin-block: 0;
+  font-size: 2.5rem;
+  padding-left: 105px;
+  padding-top: 138px;
+  color: #28233c;
+}
+.container-2 p {
+  margin-block: 0;
+  padding-left: 108px;
+  font-size: 1.25rem;
+  color: #ada9bf;
+}
+.container2-1 #user {
+  padding-left: 106px;
+  font-size: 1rem;
+  top: 287px;
+  position: absolute;
+  color: #363147;
+}
+.container2-1 #pswd {
+  padding-left: 106px;
+  font-size: 1rem;
+  top: 399px;
+  position: absolute;
+  color: #363147;
+}
+.login-text-input {
+  top: 327px;
+  left: 106px;
+  border: 1px solid;
+  margin: 0;
+  padding-bottom: 7px;
+  width: 401px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  position: absolute;
+  color: #353047;
+}
+.login-pswd-input {
+  top: 439px;
+  left: 106px;
+  border: 1px solid;
+  margin: 0;
+  padding-bottom: 7px;
+  width: 401px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  position: absolute;
+  color: #353047;
+}
+.login-checkbox {
+  margin-left: 106px;
+  right: 116px;
+  top: 0px;
+  position: absolute;
+}
+.chckbox {
+  font-size: 0.875rem;
+  left: 135px;
+  top: 495px;
+  position: absolute;
+}
+span.psw {
+  float: right;
+  top: 495px;
+  left: 366px;
+  position: absolute;
+  font-size: 0.875rem;
+}
+.login {
+  height: 50px;
+  width: 120px;
+  top: 551px;
+  left: 106px;
+  font-size: 1.25rem;
+  padding: 10px;
+  position: absolute;
+  background: transparent linear-gradient(248deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  border-color: transparent;
+  color: white;
+}
+.sign-up {
+  font-size: 0.875rem;
+  position: absolute;
+  left: 106px;
+  top: 646px;
+}
+.sign-up a {
+  text-decoration: none;
+  text-decoration: #3f2985;
+}
+#usercheck {
+  margin-left: 106px;
+  margin-top: 103px;
+  font-size: 0.7rem;
+}

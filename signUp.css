@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  overflow-x: scroll;
+}
+/* ---------------------------------Background Section-------------------------------------- */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1083px;
+}
+.flex-container img {
+  position: absolute;
+  z-index: 0;
+}
+/* -----------------------------------------Section 1-------------------------------------------------------- */
+.container-1 {
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 277px;
+}
+.container-1 h5 {
+  color: white;
+  top: 348px;
+  left: 101px;
+  font-size: 3.75rem;
+  margin-block: 0;
+  position: absolute;
+}
+.container-1 p {
+  color: white;
+  font-size: 2.5rem;
+  top: 422px;
+  left: 167px;
+  position: absolute;
+  margin-block: 0;
+}
+.container-1 .aspire-logo {
+  left: 260px;
+  top: 673px;
+}
+/* --------------------------------------------Section 2------------------------------------------------------------------ */
+.container-2 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  width: 683px;
+  height: 826px;
+  top: 127px;
+  left: 960px;
+}
+/* -----------------SignUp Section----------------------- */
+.container-2 h2 {
+  margin-block: 0;
+  font-size: 2.5rem;
+  padding-left: 105px;
+  padding-top: 77px;
+  color: #28233c;
+}
+.container-2 p {
+  margin-block: 0;
+  padding-left: 108px;
+  font-size: 1.25rem;
+  color: #ada9bf;
+}
+.container2-1 #user {
+  padding-left: 106px;
+  font-size: 1rem;
+  top: 205px;
+  position: absolute;
+  color: #363147;
+}
+.container2-1 #pswd {
+  padding-left: 106px;
+  font-size: 1rem;
+  top: 412px;
+  position: absolute;
+  color: #363147;
+}
+.container2-1 #emailid {
+  padding-left: 106px;
+  font-size: 1rem;
+  top: 308px;
+  position: absolute;
+  color: #363147;
+}
+.container2-1 #service-line {
+  top: 515px;
+  left: 106px;
+  font-size: 1rem;
+  position: absolute;
+  color: #363147;
+}
+.login-text-input {
+  top: 245px;
+  left: 106px;
+  border: 1px solid;
+  margin: 0;
+  padding-bottom: 7px;
+  width: 401px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  position: absolute;
+  color: #353047;
+}
+#login-pswd-input {
+  top: 452px;
+  left: 106px;
+  border: 1px solid;
+  margin: 0;
+  padding-bottom: 7px;
+  width: 401px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  position: absolute;
+  color: #353047;
+}
+#togglePassword {
+  left: 477.96px;
+  top: 452px;
+  position: absolute;
+  cursor: pointer;
+  color: #353047;
+}
+.signup-email {
+  top: 348px;
+  left: 106px;
+  border: 1px solid;
+  margin: 0;
+  padding-bottom: 7px;
+  width: 401px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  position: absolute;
+  color: #353047;
+}
+#service {
+  left: 106px;
+  top: 555px;
+  position: absolute;
+  width: 401px;
+  padding-bottom: 7px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: #353047;
+}
+#signup {
+  height: 50px;
+  width: 400px;
+  top: 629px;
+  left: 106px;
+  padding: 10px;
+  font-size: 1.25rem;
+  position: absolute;
+  background: transparent linear-gradient(248deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  border-color: transparent;
+  color: white;
+}

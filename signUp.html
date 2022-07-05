@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="signUp.css" />
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <img src="Group 233.png" alt="background-image" />
+      <!-- -----------------------------Section 1----------------------------------->
+      <section class="container-1">
+        <img class="background" src="Group 232.png" />
+        <h5>Our Philosophy</h5>
+        <p>Attention. Always.</p>
+        <img class="aspire-logo" src="Image 56.png" alt="aspirelogo" />
+      </section>
+      <!-- ------------------------------Section 2---------------------------------->
+      <section class="container-2">
+        <h2>Hello!</h2>
+        <p>Employee Portal Login</p>
+        <div class="container2-1">
+          <label id="user" for="uname">Username</label><br />
+          <input
+            id="username"
+            type="text"
+            class="login-text-input"
+            placeholder="Ramesh"
+            name="uname"
+            required
+          /><br />
+          <span class="errorMsg" id="errorusername"
+            >*Please provide the valid username.</span
+          >
+          <label id="emailid" for="email">Email</label><br />
+          <input
+            id="email-id"
+            type="text"
+            class="signup-email"
+            placeholder="Ramesh.kanniyappan@aspiresys.com"
+            name="email"
+            required
+          /><br />
+          <span class="errorMsg" id="erroremail"
+            >*Please provide the valid email-ID.</span
+          >
+          <label id="pswd" for="psw">Password</label><br />
+          <input
+            id="login-pswd-input"
+            type="password"
+            placeholder="***************"
+            name="psw"
+            required
+          />
+          <span class="errorMsg" id="errorpassword"
+            >*Please provide the valid password.</span
+          >
+          <i class="far fa-eye" id="togglePassword"></i>
+          <label id="service-line" for="service">Service Line</label><br />
+          <select name="service" id="service">
+            <option value="Usability Engineering">Usability Engineering</option>
+            <option value="Development">Development</option>
+          </select>
+          <button id="signup" type="submit">Create your Account</button>
+        </div>
+      </section>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
